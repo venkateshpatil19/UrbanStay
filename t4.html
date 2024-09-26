@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>URBAN STAY</title>
+  <style>
+    /* CSS Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .logo a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 24px;
+    }
+
+    .nav-menu a {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 10px;
+    }
+
+    .main-head {
+      background-color: #f1f1f1;
+      text-align: center;
+      padding: 100px 0;
+    }
+
+    .main-head h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .main-head h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .container {
+      text-align: center;
+      padding: 50px 0;
+    }
+
+    .container h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .container p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .feature {
+      flex-basis: 30%;
+      text-align: center;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .feature h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .feature p {
+      font-size: 14px;
+    }
+
+    .footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .footer p {
+      margin: 0;
+    }
+
+    .footer img {
+      width: 30px;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <div class="navbar">
+    <div class="logo">
+      <a href="#"><h1>URBAN STAY</h1></a>
+    </div>
+    <div class="nav-menu">
+      <a href="#home">Home</a>
+      <a href="#about-section">About</a>
+      <a href="#review-section">Reviews</a>
+      <a href="#contact">Contact</a>
+      <input placeholder="Your Location" style="color: black;">
+      <button class="bt">Confirm</button>
+    </div>
+  </div>
+
+  <!-- Main Heading -->
+  <div id="home" class="main-head">
+    <div class="banner-text">
+      <h1><span>URBAN STAY</span></h1>
+      <h2>Our <span>Hotel Reservation Website</span> is Best in the <span>Location</span></h2>
+      <h3>We have a <span>5-star</span> rating among all <span>online hotel booking websites</span></h3>
+    </div>
+    <div class="btn">
+      <button>Book Room</button>
+    </div>
+  </div>
+
+  <!-- About -->
+  <div id="about-section" class="container">
+    <h2>About Us</h2>
+    <p>Welcome to Hotel Reservation, the premier online platform for booking your dream hotel stay. We understand that finding the perfect accommodation is essential to having an unforgettable travel experience. With our user-friendly interface and extensive selection of hotels, we make it easy for you to discover and reserve the ideal place to stay, no matter your destination.</p>
+    <div class="features-section">
+      <div class="feature">
+        <h3>Wide Selection</h3>
+        <p>Choose from a vast collection of hotels across various locations. Whether you're seeking a luxurious resort or a budget-friendly inn, we have options to suit every traveler's preferences and budget.</p>
+      </div>
+      <div class="feature">
+        <h3>Easy Booking</h3>
+        <p>Our intuitive booking process allows you to effortlessly reserve your desired hotel in just a few clicks. Simply enter your travel dates, destination, and preferences, and we'll provide you with a curated list of available options.</p>
+      </div>
+      <div class="feature">
+        <h3>Secure Payments</h3>
+        <p>Rest assured that your payment information is safe with our secure booking system. We prioritize the protection of your personal and financial data, ensuring a worry-free reservation experience.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Reviews -->
+  <div id="review-section">
+    <h2>Reviews</h2>
+    <div class="review-section">
+      <div class="review">
+        <p class="rating">Rating: <span class="rating">4.5</span></p>
+        <p class="author">John Doe</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut magna eu mauris tempus tincidunt. Curabitur vitae dui a mauris gravida malesuada. Nullam dignissim tristique magna, id efficitur metus ullamcorper sed. Sed pretium varius libero non dapibus.</p>
+        <p class="date">Posted on 2023-07-13</p>
+      </div>
+
+      <div class="review">
+        <p class="rating">Rating: <span class="rating">4.8</span></p>
+        <p class="author">Jane Smith</p>
+        <p>Ut fermentum, mauris ac laoreet convallis, neque lacus fringilla purus, a pellentesque felis odio sed ante. Aenean vel bibendum ligula. Sed et dolor tristique, interdum justo non, bibendum magna. Curabitur sagittis sapien sit amet ultricies varius.</p>
+        <p class="date">Posted on 2023-07-12</p>
+      </div>
+
+      <div class="review">
+        <p class="rating">Rating: <span class="rating">4.2</span></p>
+        <p class="author">David Johnson</p>
+        <p>Pellentesque eu massa nec lorem pharetra interdum. Nulla dignissim feugiat est, sit amet sollicitudin purus ullamcorper non. Fusce pharetra gravida turpis, id semper mauris accumsan eu. Curabitur malesuada neque ut dui finibus, non tempus nulla commodo.</p>
+        <p class="date">Posted on 2023-07-11</p>
+      </div>
+
+      <div class="review">
+        <p class="rating">Rating: <span class="rating">4.7</span></p>
+        <p class="author">Emily Williams</p>
+        <p>Aliquam eu eleifend ex, a viverra nisi. Vivamus non neque placerat, sollicitudin tellus non, vulputate est. Curabitur vestibulum ultrices mauris ac pharetra. Sed commodo nulla eu viverra vestibulum.</p>
+        <p class="date">Posted on 2023-07-10</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>&copy; 2023 URBAN STAY. All rights reserved.</p>
+    <a href="https://www.instagram.com/"><img src="s1.webp" alt="Instagram"></a>
+    <a href="https://www.facebook.com/"><img src="s2.png" alt="Facebook"></a>
+    <a href="https://twitter.com/"><img src="s3.webp" alt="Twitter"></a>
+  </div>
+
+  <!-- JavaScript -->
+  <!-- <script>
+    // Smooth scroll to section
+    const links = document.querySelectorAll('.nav-menu a');
+    links.forEach(link => {
+      link.addEventListener('click', e => {
+        e.preventDefault();
+        const target = document.querySelector(link.getAttribute('href'));
+        target.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script> -->
+</body>
+</html>
